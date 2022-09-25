@@ -1,0 +1,4 @@
+question 2
+
+no,we cannot link two family member based on their relationship using linked list because using linked list we can arrange the family members according to their age 
+in ascending or descending order only ,we cannot establish any relationship between them,we have to use trees for that.
