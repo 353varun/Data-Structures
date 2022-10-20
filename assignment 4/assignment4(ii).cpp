@@ -58,6 +58,23 @@ int main()
 
 	return 0;
 }
+/*
+Ques-3. Suggest some practical examples of using in-place and out-place techniques.
+Ans-3 
+
+In-place techniques- 
+a. Bubble sort is an example of in-place sorting technique. It usually
+also excludes the space used for stack in recursive algorithms. 
+b. Quick sort, uses only some constant number of variables for partitioning purpose. So, is in-place algorithm.
+
+
+Out-place techniques-
+In merge sort, merge function requires extra linear space which is not
+constant. So, it is not in-place. Hence, it is called 'out of place' algorithm. Among the
+comparison based techniques discussed, only Insertion Sort qualifies for this because of the
+underlying algorithm it uses i.e. it processes the array from left to right
+and if new elements are added to the right, it doesn’t impact the ongoing operation.
+*/
 
 
 
