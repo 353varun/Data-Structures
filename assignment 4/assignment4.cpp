@@ -1,3 +1,4 @@
+/*
 Ques-1. What is the difference between in-place and out-place sorting algorithms?
 Ans-1.
   In-place algorithms
@@ -26,9 +27,10 @@ algorithm. Unlike an in-place algorithm, the extra space used by an out-ofplace 
 
 b. The standard merge sort algorithm is an example of out-of-place algorithm as
 it requires O(n) extra space for merging.
+*/
 
-//question 2:- Implement Insertion sort in both (in-place and out-place) manner.
-//answer:-
+//Ques 2:- Implement Insertion sort in both (in-place and out-place) manner.
+//Ans:-
 
 //inplace
 #include<iostream>
